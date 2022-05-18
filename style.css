@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: calc(100vh - 30px);
+    min-height: 500px;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    margin: 0 15px;
+}
+
+.char {
+    color: transparent;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.char-1 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s forwards;
+}
+
+.char-2 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s forwards;
+}
+
+.char-3 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s forwards;
+}
+
+.char-4 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s forwards;
+}
+
+.char-5 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.7s forwards;
+}
+
+.char-6 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.2s forwards;
+}
+
+.char-7 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s forwards;
+}
+
+.char-8 {
+    animation: fill 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s forwards;
+}
+
+@keyframes fill {
+    to {
+        color: #ffffff;
+    }
+}
+
+.footer {
+    color: #acacac;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b1b;
+    width: 100%;
+}

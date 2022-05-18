@@ -1,11 +1,15 @@
 # Federico Panarotto Site 🧪
 
-    This is my website!
-    The site is currently in development. 
-    I created it with simple html and css style.
+`Website` `html` `css`
 
-    Now the site is quite simple and minimal with my name in the center of the screen.
-    I would use this space for share with people my work and projects with websites that I made.
+### This is my website for personal stuff!
+
+    The site is currently in development. 
+    Now I created it with simple html structure and css style.
+
+    Now the site is quite simple and minimal with my name in the center of the screen with a really 
+    cool animation.
+    I would use this space to share with people my work and projects of websites that I made.
 
 Enjoy it for now! 😳😎😱
 

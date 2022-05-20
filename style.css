@@ -79,3 +79,9 @@
     background-color: #1b1b1b;
     width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+    .char {
+        font-size: 60px;
+    }
+}
